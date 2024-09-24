@@ -1,0 +1,1 @@
+const localStorageName = 'API_AUTH';

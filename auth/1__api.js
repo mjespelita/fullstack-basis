@@ -1,0 +1,1 @@
+const API_ENDPOINT = 'http://localhost:1000/app/public';
