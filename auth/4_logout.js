@@ -9,7 +9,7 @@ $(document).ready(function () {
                 localStorage.removeItem(localStorageName);
                 window.location.reload();
             }, error: function (err) {
-                console.log(err);
+                window.location.replace('./index.php');
             }
         })
     })
