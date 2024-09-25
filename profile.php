@@ -87,8 +87,37 @@
         <!-- Sidebar Toggler for mobile -->
         <button class="btn btn-outline-primary d-md-none sidebar-toggler" onclick="toggleSidebar()">☰ Menu</button>
 
-        <h1>Welcome to the API Dashboard</h1>
-        <p>This is your main content area. You can add charts, tables, and other components here.</p>
+        <section class="head">
+            <div class="container">
+                <h1>Profile</h1>
+                <p>This is your main content area. You can add charts, tables, and other components here.</p>
+            </div>
+        </section>
+
+        <section class="form">
+            <div class="container">
+                <form>
+                    <div class="notif">
+                        <!-- notif here... -->
+                    </div>
+                    <div class="mb-3">
+                        <label for="">Change Name</label>
+                        <input type="text" class="form-control _name" id="name" placeholder="Name" required>
+                    </div>
+                    <div class="mb-3">
+                    <label for="">Change Email</label>
+                        <input type="email" class="form-control _email" id="email" placeholder="Email" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="password" class="form-control _password" id="password" placeholder="New Password" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="password" class="form-control _confirm-password" id="password" placeholder="Confirm Password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100 mb-3 _update-profile">Update Profile</button>
+                </form>
+            </div>
+        </section>
     </div>
 
     <!-- Bootstrap JS -->
@@ -105,6 +134,7 @@
     <script src="./auth/2__localStorage.js"></script>
     <script src="./auth/3_creds.js"></script>
     <script src="./auth/4_logout.js"></script>
+    <script src="./auth/profile.js"></script>
     <!-- <script src="./auth/middleware/proxy_middleware.js"></script> -->
 </body>
 </html>

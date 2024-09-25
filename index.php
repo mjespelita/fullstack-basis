@@ -38,16 +38,19 @@
                     <!-- Login Form -->
                     <h2 class="mb-4">Login</h2>
                     <form>
-                        <div class="mb-3">
-                            <input type="email" class="form-control" id="email" placeholder="Email" required>
+                        <div class="notif">
+                            <!-- notif here... -->
                         </div>
                         <div class="mb-3">
-                            <input type="password" class="form-control" id="password" placeholder="Password" required>
+                            <input type="email" class="form-control _email" id="email" placeholder="Email" required>
                         </div>
-                        <button type="submit" class="btn btn-primary w-100 mb-3">Login</button>
+                        <div class="mb-3">
+                            <input type="password" class="form-control _password" id="password" placeholder="Password" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 mb-3 _login-btn">Login</button>
 
                         <!-- Forgot Password Link -->
-                        <a href="#" class="d-block mb-3">Forgot Password?</a>
+                        <a href="./app/public/forgot-password" class="d-block mb-3">Forgot Password?</a>
                     </form>
 
                     <!-- Register Link -->
