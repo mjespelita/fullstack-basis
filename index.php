@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/bootstrap/bootstrap5.3.0.min.css" rel="stylesheet">
     <style>
         body {
             height: 100vh;
@@ -59,7 +59,7 @@
 
     <script src="./auth/jquery.min.js"></script>
     <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/bootstrap/bootstrap5.3.0.min.js"></script>
     
     <script src="./auth/1__api.js"></script>
     <script src="./auth/2__localStorage.js"></script>
