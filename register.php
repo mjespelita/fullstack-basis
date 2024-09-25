@@ -28,7 +28,7 @@
     </style>
 </head>
 <body>
-    <div class="container">
+<div class="container">
         <div class="row justify-content-center">
             <div class="col-md-4">
                 <div class="login-form">
@@ -36,22 +36,22 @@
                     <img src="https://via.placeholder.com/100" alt="Logo" class="logo">
 
                     <!-- Login Form -->
-                    <h2 class="mb-4">Login</h2>
+                    <h2 class="mb-4">Register</h2>
                     <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="name" placeholder="Name" required>
+                        </div>
                         <div class="mb-3">
                             <input type="email" class="form-control" id="email" placeholder="Email" required>
                         </div>
                         <div class="mb-3">
                             <input type="password" class="form-control" id="password" placeholder="Password" required>
                         </div>
-                        <button type="submit" class="btn btn-primary w-100 mb-3">Login</button>
-
-                        <!-- Forgot Password Link -->
-                        <a href="#" class="d-block mb-3">Forgot Password?</a>
+                        <button type="submit" class="btn btn-primary w-100 mb-3">Register</button>
                     </form>
 
                     <!-- Register Link -->
-                    <p class="mb-0">Don't have an account? <a href="./register.php">Register</a></p>
+                    <p class="mb-0">Already have an account? <a href="./index.php">Login</a></p>
                 </div>
             </div>
         </div>
